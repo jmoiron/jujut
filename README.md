@@ -24,6 +24,6 @@ It seems clear that `runtime.Caller` doesn't mind returning garbage in 1.4.x in 
 would align with a file of "?".  Note that this code has been changed since 1.5 series and likely has completely
 different behavior now.
 
-[1] https://github.com/golang/go/blob/release-branch.go1.4/src/runtime/symtab.go#L212
-[2] https://github.com/juju/errors/blob/master/path.go#L19
-[3] https://github.com/golang/go/blob/release-branch.go1.4/src/runtime/extern.go#L115-L117
+1. https://github.com/golang/go/blob/release-branch.go1.4/src/runtime/symtab.go#L212
+2. https://github.com/juju/errors/blob/master/path.go#L19
+3. https://github.com/golang/go/blob/release-branch.go1.4/src/runtime/extern.go#L115-L117
